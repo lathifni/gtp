@@ -81,38 +81,10 @@ $uri3 = $uri[3] ?? '';
                         </li>
                     <?php endif; ?>
 
-                    <?php if (in_groups(['admin']) || in_groups(['master'])) :
-                        ?>
-                        <li class="sidebar-item has-sub">
-                            <a href="" class="sidebar-link">
-                                <i class="fa-solid fa-square-poll-horizontal"></i><span>Manage Package</span>
-                            </a>
-                            <ul class="submenu ">
-                                <!-- List Package -->
-                                <li class="submenu-item <?= ($uri1 == 'package') ? 'active' : '' ?>" id="pa-list">
-                                    <a href="<?= base_url('dashboard/package');?>"><i class="fa-solid fa-square-poll-horizontal"></i> Data Package</a>
-                                </li>
-                                <!-- List Service Package -->
-                                <li class="submenu-item <?= ($uri1 == 'servicepackage') ? 'active' : '' ?>" id="pa-list">
-                                    <a href="<?= base_url('dashboard/servicepackage');?>"><i class="fa-solid fa-puzzle-piece"></i> Service Package</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <?php endif;
-                    ?>
-
                     <?php if (in_groups(['admin']) || in_groups(['master'])) : ?>
                         <li class="sidebar-item <?= ($uri1 == 'homestay') ? 'active' : '' ?>">
                             <a href="<?= base_url('dashboard/homestay'); ?>" class="sidebar-link">
                                 <i class="fa-solid fa-bed"></i><span>Manage Homestay</span>
-                            </a>
-                        </li>
-                    <?php endif; ?>
-
-                    <?php if (in_groups(['admin']) || in_groups(['master'])) : ?>
-                        <li class="sidebar-item <?= ($uri1 == 'reservation') ? 'active' : '' ?>">
-                            <a href="<?= base_url('dashboard/managereservation'); ?>" class="sidebar-link">
-                                <i class="fa-solid fa-bullhorn"></i><span>Manage Reservation</span>
                             </a>
                         </li>
                     <?php endif; ?>
