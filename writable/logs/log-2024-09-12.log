@@ -1,0 +1,107 @@
+CRITICAL - 2024-09-12 12:56:57 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\writable\\uploads/66e282a9c4378-20240912125657')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-12 12:57:01 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\writable\\uploads/66e282add0fa2-20240912125701')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-12 12:57:08 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\writable\\uploads/66e282b497e86-20240912125708')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-12 12:57:11 --> Undefined array key 0
+in APPPATH\Controllers\Web\Package.php on line 238.
+ 1 APPPATH\Controllers\Web\Package.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Web\\Package.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Package->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Package))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-12 12:57:37 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\writable\\uploads/66e282d1bfb2f-20240912125737')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+ERROR - 2024-09-12 12:57:40 --> mysqli_sql_exception: Duplicate entry 'test' for key 'package.name' in C:\Users\lathi\Documents\Github\gtp-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\Users\lathi\Documents\Github\gtp-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\Users\lathi\Documents\Github\gtp-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web\app\Models\PackageModel.php(133): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\lathi\Documents\Github\gtp-web\app\Controllers\Web\Package.php(230): App\Models\PackageModel->add_new_package(Array)
+#6 C:\Users\lathi\Documents\Github\gtp-web\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Web\Package->create()
+#7 C:\Users\lathi\Documents\Github\gtp-web\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Package))
+#8 C:\Users\lathi\Documents\Github\gtp-web\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lathi\Documents\Github\gtp-web\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lathi\Documents\Github\gtp-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#11 {main}
+CRITICAL - 2024-09-12 12:57:40 --> Duplicate entry 'test' for key 'package.name'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `package` (`id`, `name`, `type_id`, `min_capacity`, `description`, `contact_person`) VALUES (\'P0070\', \'test\', \'T0003\', \'6\', \'ini test aja\', \'08\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `package` (`id`, `name`, `type_id`, `min_capacity`, `description`, `contact_person`) VALUES (\'P0070\', \'test\', \'T0003\', \'6\', \'ini test aja\', \'08\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `package` (`id`, `name`, `type_id`, `min_capacity`, `description`, `contact_person`) VALUES (\'P0070\', \'test\', \'T0003\', \'6\', \'ini test aja\', \'08\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `package` (`id`, `name`, `type_id`, `min_capacity`, `description`, `contact_person`) VALUES (:id:, :name:, :type_id:, :min_capacity:, :description:, :contact_person:)', [...], false)
+ 5 APPPATH\Models\PackageModel.php(133): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Web\Package.php(230): App\Models\PackageModel->add_new_package([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Package->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Package))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-12 12:59:13 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Web\\Upload.php', 49)
+ 2 APPPATH\Controllers\Web\Upload.php(49): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\writable\\uploads/66e2833156680-20240912125913')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->video()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-12 12:59:13 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\writable\\uploads/66e2833181587-20240912125913')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-12 12:59:13 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\writable\\uploads/66e28331a48c1-20240912125913')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-12 12:59:15 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\writable\\uploads/66e28333092ca-20240912125915')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')

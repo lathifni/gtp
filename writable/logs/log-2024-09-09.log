@@ -1,0 +1,360 @@
+CRITICAL - 2024-09-09 10:47:36 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 10:47:36 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 10:47:36 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 10:47:36 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 10:47:37 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 10:47:37 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 10:47:37 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 10:50:30 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 10:50:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 61.
+ 1 APPPATH\Controllers\Api\Village.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\Village.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 10:50:34 --> Call to undefined method Myth\Auth\Models\UserModel::get_admin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Web\Dashboard.php(79): CodeIgniter\Model->__call('get_admin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Dashboard->users()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:50:55 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:50:55 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:50:55 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:50:55 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:50:56 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:50:56 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:50:56 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:52:01 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:52:01 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:52:01 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:52:01 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:52:01 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:52:01 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:52:02 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:53:11 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:53:12 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:53:12 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:53:12 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:53:12 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:53:12 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:53:12 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 13:55:21 --> Call to undefined method Myth\Auth\Models\UserModel::get_admin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Web\Dashboard.php(79): CodeIgniter\Model->__call('get_admin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Dashboard->users()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:27:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:27:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 61.
+ 1 APPPATH\Controllers\Api\Village.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\Village.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:28:09 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:28:09 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:28:10 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:28:10 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:28:10 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:28:10 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:28:10 --> Undefined variable $geoJson
+in APPPATH\Controllers\Api\CulinaryPlace.php on line 110.
+ 1 APPPATH\Controllers\Api\CulinaryPlace.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $geoJson', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\CulinaryPlace.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Culinaryplace->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Culinaryplace))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:28:33 --> Call to undefined method Myth\Auth\Models\UserModel::get_admin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Web\Dashboard.php(79): CodeIgniter\Model->__call('get_admin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Dashboard->users()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:42:53 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 14:42:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 61.
+ 1 APPPATH\Controllers\Api\Village.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\Village.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')
+CRITICAL - 2024-09-09 21:32:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web\\public\\index.php')

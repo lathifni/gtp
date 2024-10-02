@@ -1,0 +1,8 @@
+CRITICAL - 2024-09-30 11:48:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian\\public\\index.php')
