@@ -1,0 +1,1066 @@
+CRITICAL - 2024-10-12 11:24:53 --> Undefined property: App\Controllers\Web\Gtp::$sumpuModel
+in APPPATH\Controllers\Web\Gtp.php on line 40.
+ 1 APPPATH\Controllers\Web\Gtp.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Web\\Gtp::$sumpuModel', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Web\\Gtp.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:25:25 --> Call to undefined method App\Models\GtpModel::get_desa_wisata_info
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Web\Gtp.php(40): CodeIgniter\Model->__call('get_desa_wisata_info', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:25:26 --> Call to undefined method App\Models\GtpModel::get_desa_wisata_info
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Web\Gtp.php(40): CodeIgniter\Model->__call('get_desa_wisata_info', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:30:58 --> Call to undefined method App\Models\GtpModel::get_desa_wisata_info
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Web\Gtp.php(40): CodeIgniter\Model->__call('get_desa_wisata_info', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:30:59 --> Call to undefined method App\Models\GtpModel::get_desa_wisata_info
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Web\Gtp.php(40): CodeIgniter\Model->__call('get_desa_wisata_info', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:31:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:31:27 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 61.
+ 1 APPPATH\Controllers\Api\Village.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:37:09 --> Undefined variable $data3
+in APPPATH\Views\web\info_home.php on line 6.
+ 1 APPPATH\Views\web\info_home.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data3', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('web/info_home', [], true)
+ 5 APPPATH\Controllers\Web\Gtp.php(57): view('web/info_home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:37:16 --> Undefined variable $data2
+in APPPATH\Views\web\info_home.php on line 6.
+ 1 APPPATH\Views\web\info_home.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data2', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('web/info_home', [], true)
+ 5 APPPATH\Controllers\Web\Gtp.php(57): view('web/info_home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:37:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:37:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 61.
+ 1 APPPATH\Controllers\Api\Village.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:38:20 --> Undefined variable $data2
+in APPPATH\Views\web\info_home.php on line 6.
+ 1 APPPATH\Views\web\info_home.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data2', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('web/info_home', [], true)
+ 5 APPPATH\Controllers\Web\Gtp.php(57): view('web/info_home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:39:49 --> Undefined variable $data3
+in APPPATH\Views\web\info_home.php on line 16.
+ 1 APPPATH\Views\web\info_home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data3', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('web/info_home', [], true)
+ 5 APPPATH\Controllers\Web\Gtp.php(58): view('web/info_home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:40:05 --> Undefined variable $item3
+in APPPATH\Views\web\info_home.php on line 17.
+ 1 APPPATH\Views\web\info_home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item3', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('web/info_home', [], true)
+ 5 APPPATH\Controllers\Web\Gtp.php(58): view('web/info_home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:40:06 --> Undefined variable $item3
+in APPPATH\Views\web\info_home.php on line 17.
+ 1 APPPATH\Views\web\info_home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item3', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('web/info_home', [], true)
+ 5 APPPATH\Controllers\Web\Gtp.php(58): view('web/info_home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:42:32 --> Undefined variable $item3
+in APPPATH\Views\web\info_home.php on line 17.
+ 1 APPPATH\Views\web\info_home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item3', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\web\\info_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('web/info_home', [], true)
+ 5 APPPATH\Controllers\Web\Gtp.php(58): view('web/info_home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Gtp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Gtp))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:43:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:43:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 61.
+ 1 APPPATH\Controllers\Api\Village.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:44:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:44:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 61.
+ 1 APPPATH\Controllers\Api\Village.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:48:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 11:48:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 61.
+ 1 APPPATH\Controllers\Api\Village.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 12:09:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 12:09:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 61.
+ 1 APPPATH\Controllers\Api\Village.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 12:22:31 --> Undefined property: App\Controllers\Web\Dashboard::$sumpuModel
+in APPPATH\Controllers\Web\Dashboard.php on line 204.
+ 1 APPPATH\Controllers\Web\Dashboard.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Web\\Dashboard::$sumpuModel', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Web\\Dashboard.php', 204)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Dashboard->announcement()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 12:23:51 --> Undefined property: App\Controllers\Web\Dashboard::$sumpuModel
+in APPPATH\Controllers\Web\Dashboard.php on line 204.
+ 1 APPPATH\Controllers\Web\Dashboard.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Web\\Dashboard::$sumpuModel', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Web\\Dashboard.php', 204)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Dashboard->announcement()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 12:23:52 --> Undefined property: App\Controllers\Web\Dashboard::$sumpuModel
+in APPPATH\Controllers\Web\Dashboard.php on line 204.
+ 1 APPPATH\Controllers\Web\Dashboard.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Web\\Dashboard::$sumpuModel', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Web\\Dashboard.php', 204)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Dashboard->announcement()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 17:34:58 --> Undefined array key "announcementtstssts"
+in APPPATH\Views\dashboard\manage-announcement.php on line 180.
+ 1 APPPATH\Views\dashboard\manage-announcement.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "announcementtstssts"', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\dashboard\\manage-announcement.php', 180)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\dashboard\\manage-announcement.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/manage-announcement', [], true)
+ 5 APPPATH\Controllers\Web\Dashboard.php(214): view('dashboard/manage-announcement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Dashboard->announcement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 17:35:00 --> Undefined array key "announcementtstssts"
+in APPPATH\Views\dashboard\manage-announcement.php on line 180.
+ 1 APPPATH\Views\dashboard\manage-announcement.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "announcementtstssts"', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\dashboard\\manage-announcement.php', 180)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\dashboard\\manage-announcement.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/manage-announcement', [], true)
+ 5 APPPATH\Controllers\Web\Dashboard.php(214): view('dashboard/manage-announcement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Dashboard->announcement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 17:35:01 --> Undefined array key "announcementtstssts"
+in APPPATH\Views\dashboard\manage-announcement.php on line 180.
+ 1 APPPATH\Views\dashboard\manage-announcement.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "announcementtstssts"', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\dashboard\\manage-announcement.php', 180)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Views\\dashboard\\manage-announcement.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/manage-announcement', [], true)
+ 5 APPPATH\Controllers\Web\Dashboard.php(214): view('dashboard/manage-announcement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Dashboard->announcement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 17:57:32 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ho...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 17:57:32 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `homestay`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 17:57:44 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ho...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 17:57:44 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `homestay`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 17:59:28 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ho...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 17:59:28 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `homestay`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 17:59:31 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ho...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 17:59:31 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `homestay`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 17:59:46 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ho...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 17:59:46 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `homestay`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 18:05:53 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ev...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ev...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ev...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ev...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 18:05:53 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `event`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 18:05:56 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ev...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ev...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ev...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ev...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 18:05:56 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `event`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 18:07:46 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ev...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ev...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ev...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ev...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 18:07:46 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `event`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 18:22:26 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ev...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ev...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ev...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ev...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 18:22:26 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `event`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 18:34:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 18:34:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 61.
+ 1 APPPATH\Controllers\Api\Village.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 19:30:07 --> mysqli_sql_exception: Invalid GIS data provided to function st_geomfromtext. in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `facilit...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `facilit...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `facilit...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `facilit...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Models\FacilityModel.php(128): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Web\Facility.php(112): App\Models\FacilityModel->add_new_facility(Array, 'MULTIPOLYGON(((...')
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Web\Facility->create()
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Facility))
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#11 {main}
+CRITICAL - 2024-10-12 19:30:07 --> Invalid GIS data provided to function st_geomfromtext.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `facility` SET `geom` = ST_GeomFromText(\'MULTIPOLYGON(((100.19319879608462 -0.7081370637489709,100.19396675391123 -0.7081822348275975,100.19319879608462 -0.7081370637489709)))\')
+WHERE `id` = \'FC027\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `facility` SET `geom` = ST_GeomFromText(\'MULTIPOLYGON(((100.19319879608462 -0.7081370637489709,100.19396675391123 -0.7081822348275975,100.19319879608462 -0.7081370637489709)))\')
+WHERE `id` = \'FC027\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `facility` SET `geom` = ST_GeomFromText(\'MULTIPOLYGON(((100.19319879608462 -0.7081370637489709,100.19396675391123 -0.7081822348275975,100.19319879608462 -0.7081370637489709)))\')
+WHERE `id` = \'FC027\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `facility` SET `geom` = ST_GeomFromText(\'MULTIPOLYGON(((100.19319879608462 -0.7081370637489709,100.19396675391123 -0.7081822348275975,100.19319879608462 -0.7081370637489709)))\')
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\FacilityModel.php(128): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH\Controllers\Web\Facility.php(112): App\Models\FacilityModel->add_new_facility([...], 'MULTIPOLYGON(((100.19319879608462 -0.7081370637489709,100.19396675391123 -0.7081822348275975,100.19319879608462 -0.7081370637489709)))')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Facility->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Facility))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 19:30:51 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ho...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 19:30:51 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `homestay`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 19:30:54 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ho...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 19:30:54 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `homestay`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 19:34:05 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ho...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 19:34:05 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `homestay`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 19:34:09 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ho...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 19:34:09 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `homestay`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 19:34:24 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ev...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ev...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ev...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ev...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 19:34:24 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `event`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 19:35:43 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ev...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ev...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ev...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ev...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 19:35:43 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `event`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 19:35:57 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ev...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ev...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ev...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ev...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 19:35:57 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `event`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 19:36:29 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ho...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 19:36:29 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `homestay`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 19:36:36 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ho...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 19:36:36 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_homestay`, CONSTRAINT `gallery_homestay_ibfk_1` FOREIGN KEY (`homestay_id`) REFERENCES `homestay` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `homestay`
+WHERE `id` IN (\'HO002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `homestay`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Homestay.php(107): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Homestay->delete('HO002')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Homestay))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 19:40:42 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ev...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ev...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ev...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ev...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 19:40:42 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `event`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+ERROR - 2024-10-12 20:01:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`)) in C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ev...', 0)
+#1 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ev...')
+#2 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ev...')
+#3 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ev...', Array, false)
+#4 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\app\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+#8 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+#9 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lathi\Documents\Github\gtp-web-pengabdian-copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\...')
+#12 {main}
+CRITICAL - 2024-10-12 20:01:30 --> Cannot delete or update a parent row: a foreign key constraint fails (`gtp`.`gallery_event`, CONSTRAINT `gallery_event_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `event` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `event`
+WHERE `id` IN (\'EV003\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `event`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Api\Event.php(90): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Event->delete('EV003')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Event))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 20:05:20 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\writable\\uploads/670a7410e1f83-20241012200520')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 20:05:25 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\writable\\uploads/670a7415cbca9-20241012200525')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 20:09:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 48.
+ 1 APPPATH\Controllers\Api\Village.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 20:09:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Api\Village.php on line 61.
+ 1 APPPATH\Controllers\Api\Village.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Api\\Village.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\Village->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Village))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 20:09:42 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Web\\Upload.php', 49)
+ 2 APPPATH\Controllers\Web\Upload.php(49): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\writable\\uploads/670a7516a164d-20241012200942')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->video()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 20:09:42 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\writable\\uploads/670a7516daab0-20241012200942')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 20:09:42 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\writable\\uploads/670a7516ee78a-20241012200942')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 20:09:44 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\writable\\uploads/670a7518443ac-20241012200944')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')
+CRITICAL - 2024-10-12 20:09:44 --> mkdir(): No such file or directory
+in APPPATH\Controllers\Web\Upload.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\app\\Controllers\\Web\\Upload.php', 35)
+ 2 APPPATH\Controllers\Web\Upload.php(35): mkdir('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\writable\\uploads/670a751857d6e-20241012200944')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web\Upload->photo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lathi\\Documents\\Github\\gtp-web-pengabdian-copy\\public\\index.php')

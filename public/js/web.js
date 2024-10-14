@@ -3296,7 +3296,7 @@ function deleteObject(id = null, name = null, user = false) {
         apiUri = 'facility/'
     } else if (id.substring(0,2) === 'CP') {
         content = 'Culinary Place';
-        apiUri = 'culinaryPlace/'
+        apiUri = 'culinaryplace/'
     } else if (id.substring(0,2) === 'WP') {
         content = 'Worship Place';
         apiUri = 'worshipplace/'
@@ -3315,6 +3315,9 @@ function deleteObject(id = null, name = null, user = false) {
     } else if (id.substring(0,7) === 'R') {
         content = 'Reservation';
         apiUri = 'reservation/'
+    } else if (id.substring(0,2) === 'AN') {
+        content = 'Announcement';
+        apiUri = 'announcement/'
     } else if (user === true) {
         content = 'User';
         apiUri = 'user/'

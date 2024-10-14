@@ -79,4 +79,66 @@ class GtpModel extends Model
             ->update($gtp);
         return $query;
     }
+    public function get_announcement_info()
+    {
+        $query = $this->db->table('announcement')
+            ->select("id, admin_id, announcement, status")
+            ->where('status', 1)
+            ->get();
+        return $query;
+    }
+
+    public function get_announcement_all()
+    {
+        $query = $this->db->table('announcement')
+            ->select("id, admin_id, announcement, status")
+            ->get();
+        return $query;
+    }
+
+    public function get_new_announcement_id()
+    {
+        $builder = $this->db->table('announcement');     
+        $lastId = $builder->select('id')->orderBy('id', 'DESC')->get()->getFirstRow('array');
+        
+        if ($lastId) {
+            $count = (int)substr($lastId['id'], 2);
+            $newCount = $count + 1; 
+        } else {
+            $newCount = 1; 
+        }
+        
+        $id = sprintf('AN%03d', $newCount); 
+        return $id;
+    }
+
+    public function add_new_announcement($announcement = null)
+    {
+       
+        $insert = $this->db->table('announcement')
+            ->insert($announcement);
+        return $insert;
+    }
+
+    public function update_announcement ($id = null, $announcement = null)
+    {
+        foreach ($announcement as $key => $value) {
+            if (empty($value)) {
+                unset($announcement[$key]);
+            }
+        }
+        
+        $query = $this->db->table('announcement')
+            ->where('id', $id)
+            ->update($announcement);
+        return $query;
+    }
+
+    public function delete_announcement($id = null)
+    {
+        $query = $this->db->table('announcement')
+        ->where('id', $id)
+        ->delete();
+        return $query;
+    }
 }

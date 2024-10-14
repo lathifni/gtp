@@ -37,6 +37,8 @@ class Gtp extends ResourcePresenter
     public function index()
     {
         $contents = $this->gtpModel->get_gtp()->getResultArray();
+        // $contents2 = $this->gtpModel->get_desa_wisata_info()->getResultArray();
+        $contents2 = $this->gtpModel->get_announcement_info()->getResultArray();
 
         for ($index = 0; $index < count($contents); $index++) {
             $list_gallery = $this->galleryGtpModel->get_gallery($contents[$index]['id'])->getResultArray();
@@ -49,7 +51,8 @@ class Gtp extends ResourcePresenter
 
         $data = [
             'title' => 'Home',
-            'data' => $contents
+            'data' => $contents,
+            'data2' => $contents2,
         ];
 
         return view('web/info_home', $data);
@@ -116,6 +119,35 @@ class Gtp extends ResourcePresenter
 
         if ($updateGTP) {
             return redirect()->to(base_url('dashboard/gtp'));
+        } else {
+            return redirect()->back()->withInput();
+        }
+    }
+
+    public function createannouncement()
+    {
+        $request = $this->request->getPost();
+
+        $id = $this->gtpModel->get_new_announcement_id();
+
+        $requestData = [
+            'id' => $id,
+            'admin_id' => user()->id,
+            'announcement' => $request['announcement'],
+            'status' => $request['status'],
+        ];
+
+        foreach ($requestData as $key => $value) {
+            if (empty($value)) {
+                unset($requestData[$key]);
+            }
+        }
+
+        $addAN = $this->gtpModel->add_new_announcement($requestData);
+
+        if ($addAN) {
+            return redirect()->back();
+            // return redirect()->to(base_url('dashboard/servicepackage'));
         } else {
             return redirect()->back()->withInput();
         }

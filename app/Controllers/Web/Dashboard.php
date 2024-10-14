@@ -197,5 +197,21 @@ class Dashboard extends BaseController
 
         return view('dashboard/manage-page', $data);
     }
+
+    public function announcement()
+    {
+        // $contents2 = $this->sumpuModel->get_desa_wisata_info()->getResultArray();
+        $contents3 = $this->gtpModel->get_announcement_all()->getResultArray();
+
+
+        $data = [
+            'title' => 'Manage Announcement',
+            'manage' => 'Announcement',
+            'announcementdata' => $contents3,
+            // 'data2' => $contents2,
+
+        ];
+        return view('dashboard/manage-announcement', $data);
+    }
     
 }

@@ -49,6 +49,18 @@ $uri3 = $uri[3] ?? '';
                     <?php endif;
                     ?>
 
+                    <?php if (in_groups(['admin']) || in_groups(['master'])) :
+                    ?>
+                        <li class="sidebar-item <?= ($uri1 == 'announcement') ? 'active' : ''
+                                                ?>">
+                            <a href="<?= base_url('dashboard/announcement');
+                                        ?>" class="sidebar-link">
+                                <i class="fa-brands fa-pagelines"></i><span>Manage Announcement</span>
+                            </a>
+                        </li>
+                    <?php endif;
+                    ?>
+
                     <?php if (in_groups(['master'])) :
                     ?>
                         <li class="sidebar-item <?= ($uri1 == 'users') ? 'active' : ''

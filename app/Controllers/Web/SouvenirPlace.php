@@ -7,7 +7,7 @@ use App\Models\GallerySouvenirPlaceModel;
 use CodeIgniter\RESTful\ResourcePresenter;
 use CodeIgniter\Files\File;
 
-class SouvenirPlace extends ResourcePresenter
+class Souvenirplace extends ResourcePresenter
 {
     protected $souvenirPlaceModel;
     protected $gallerySouvenirPlaceModel;

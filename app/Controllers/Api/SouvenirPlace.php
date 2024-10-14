@@ -7,7 +7,7 @@ use App\Models\GallerySouvenirPlaceModel;
 use CodeIgniter\API\ResponseTrait;
 use CodeIgniter\RESTful\ResourceController;
 
-class SouvenirPlace extends ResourceController
+class Souvenirplace extends ResourceController
 {
     use ResponseTrait;
 

@@ -91,7 +91,7 @@ $routes->group('web', ['namespace' => 'App\Controllers\Web'], function ($routes)
     $routes->presenter('ulakan');
     $routes->resource('homestay');
     $routes->presenter('homestay');
-    $routes->presenter('culinaryPlace');
+    $routes->presenter('culinaryplace');
     $routes->presenter('souvenirPlace');
     $routes->presenter('worshipplace');
     $routes->presenter('servicepackage');
@@ -142,6 +142,7 @@ $routes->group('web', ['namespace' => 'App\Controllers\Web'], function ($routes)
 $routes->group('dashboard', ['namespace' => 'App\Controllers\Web', 'filter' => 'role:admin, master'], function ($routes) {
     $routes->get('/', 'Dashboard::index');
     $routes->get('gtp', 'Dashboard::gtp');
+    $routes->get('announcement', 'Dashboard::announcement');
     $routes->get('users', 'Dashboard::users');
     $routes->get('attraction', 'Dashboard::attraction');
     $routes->get('event', 'Dashboard::event');
@@ -158,6 +159,10 @@ $routes->group('dashboard', ['namespace' => 'App\Controllers\Web', 'filter' => '
     $routes->post('packageday/createactivity/(:segment)', 'Packageday::createactivity/$1');
     $routes->delete('packageday/delete/(:any)', 'Packageday::delete/$1');
     $routes->delete('packageday/deleteday/(:any)', 'Packageday::deleteday/$1');
+
+    $routes->post('announcement/add', 'Gtp::createannouncement');
+    $routes->post('announcement/update/(:any)', 'Gtp::updateannouncement/$1');
+    // $routes->delete('announcement/(:any)', 'Gtp::deleteannouncement/$1');
     
     // $routes->get('package/edit/(:segment)', 'Packageday::newday/$1');
     // $routes->post('package/edit/createday/(:segment)', 'Packageday::createday/$1');
@@ -229,12 +234,13 @@ $routes->group('upload', ['namespace' => 'App\Controllers\Web'], function ($rout
 // API
 $routes->group('api', ['namespace' => 'App\Controllers\Api'], function ($routes) {
     $routes->resource('gtp');
+    $routes->delete('announcement/(:any)', 'Gtp::deleteannouncement/$1');
 
     $routes->post('village', 'Village::getData');
     $routes->post('villages', 'Village::getDataKK');
     $routes->post('homestay', 'Homestay::getData');
     $routes->post('culinary', 'Culinaryplace::getData');
-    $routes->post('souvenir', 'SouvenirPlace::getData');
+    $routes->post('souvenir', 'Souvenirplace::getData');
     $routes->post('worship', 'Worshipplace::getData');
     $routes->post('facility', 'Facility::getData');
 
@@ -265,9 +271,9 @@ $routes->group('api', ['namespace' => 'App\Controllers\Api'], function ($routes)
     $routes->resource('culinaryplace');
     $routes->presenter('culinaryplace');
     $routes->post('culinaryplace/findByRadius', 'Culinaryplace::findByRadius');
-    $routes->resource('souvenirPlace');
+    $routes->resource('souvenirplace');
     $routes->presenter('souvenirplace');
-    $routes->post('souvenirPlace/findByRadius', 'SouvenirPlace::findByRadius');
+    $routes->post('souvenirplace/findByRadius', 'Souvenirplace::findByRadius');
     $routes->resource('worshipplace');
     $routes->presenter('worshipplace');
     $routes->post('worshipplace/findByRadius', 'Worshipplace::findByRadius');

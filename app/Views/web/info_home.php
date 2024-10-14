@@ -3,6 +3,26 @@
 <?= $this->section('content') ?>
 
 <section class="section">
+    <?php if ($data2 != null) : ?>
+            <div class="row">
+                <!-- announcement -->
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title text-left" style="color: #dc3545;"><i class="fa-solid fa-bullhorn"></i> Announcement</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <?php foreach ($data2 as $item2) : ?>
+                                    <li class="text-left"><?= esc($item2['announcement']); ?></li>
+                                <?php endforeach; ?>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    <?php endif; ?>
     <div class="row">
         <!--map-->
         <div class="col-md-8 col-12">

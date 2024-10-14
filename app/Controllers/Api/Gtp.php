@@ -62,4 +62,22 @@ class Gtp extends ResourceController
         ];
         return $this->respond($response);
     }
+
+    public function deleteannouncement($id = null)
+    { 
+        if ($id === null) {
+            return $this->fail('ID is required.');
+        }
+
+        $deleteAN = $this->gtpModel->delete_announcement($id);
+        if ($deleteAN) {
+            $response = [
+                'status' => 200,
+                'message' => ["Success delete Announcement"]
+            ];
+            return $this->respondDeleted($response);
+        } else {
+            return $this->failNotFound('Announcement not found or could not be deleted.');
+        }
+    }
 }
