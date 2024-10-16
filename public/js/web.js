@@ -1416,7 +1416,7 @@ function objectInfoWindow(id){
                 contentButton =
                     '<br><div class="text-center">' +
                     '<a title="Route" class="btn icon btn-outline-primary mx-1" id="routeInfoWindow" onclick="routeTo('+lat+', '+lng+')"><i class="fa-solid fa-road"></i></a>' +
-                    '<a title="Info" class="btn icon btn-outline-primary mx-1" target="_blank" id="infoInfoWindow" href='+baseUrl+'/web/culinaryPlace/'+cpid+'><i class="fa-solid fa-info"></i></a>' +
+                    '<a title="Info" class="btn icon btn-outline-primary mx-1" target="_blank" id="infoInfoWindow" href='+baseUrl+'/web/culinaryplace/'+cpid+'><i class="fa-solid fa-info"></i></a>' +
                     '</div>'
 
                 if (currentUrl.includes(id)) {
@@ -1692,7 +1692,7 @@ function objectInfoWindowRoute(id){
         });
     } else if (id.substring(0,2) === "CP") {
         $.ajax({
-            url: baseUrl + '/api/culinaryPlace/' + id,
+            url: baseUrl + '/api/culinaryplace/' + id,
             dataType: 'json',
             success: function (response) {
                 let data = response.data;
@@ -1712,7 +1712,7 @@ function objectInfoWindowRoute(id){
                 contentButton =
                     '<br><div class="text-center">' +
                     '<a title="Route" class="btn icon btn-outline-primary mx-1" id="routeInfoWindow" onclick="routeTo('+lat+', '+lng+')"><i class="fa-solid fa-road"></i></a>' +
-                    '<a title="Info" class="btn icon btn-outline-primary mx-1" target="_blank" id="infoInfoWindow" href='+baseUrl+'/web/culinaryPlace/'+cpid+'><i class="fa-solid fa-info"></i></a>' +
+                    '<a title="Info" class="btn icon btn-outline-primary mx-1" target="_blank" id="infoInfoWindow" href='+baseUrl+'/web/culinaryplace/'+cpid+'><i class="fa-solid fa-info"></i></a>' +
                     '</div>'
 
                 if (currentUrl.includes(id)) {
@@ -2116,7 +2116,7 @@ function findExplore(category, radius) {
     // let pos = new google.maps.LatLng(currentLat, currentLng);
     if (category === 'cp') {
         $.ajax({
-            url: baseUrl + '/api/culinaryPlace/findByRadius',
+            url: baseUrl + '/api/culinaryplace/findByRadius',
             type: 'POST',
             data: {
                 lat: currentLat,

@@ -152,4 +152,28 @@ class Gtp extends ResourcePresenter
             return redirect()->back()->withInput();
         }
     }
+
+    public function updateannouncement($id = null)
+    {
+        $request = $this->request->getPost();
+       
+        $requestData = [
+            'announcement' => $request['announcement'],
+            'status' => $request['status'],
+        ];
+
+        foreach ($requestData as $key => $value) {
+            if (empty($value)) {
+                unset($requestData[$key]);
+            }
+        }
+
+        $updateAN = $this->gtpModel->update_announcement($id, $requestData);
+
+        if ($updateAN) {
+            return redirect()->back();
+        } else {
+            return redirect()->back()->withInput();
+        }
+    }
 }

@@ -57,13 +57,6 @@
         <?= $this->renderSection('content'); ?>
     </div>
     <!-- End Auth Content -->
-
-    <div class="row justify-content-center align-items-center m-0" style="background-color: #2d499d">
-        <div class="col">
-            <p class="text-center text-white"><?= date('Y');
-                                                ?> &copy; Mutiara Raudhatul Jannah</p>
-        </div>
-    </div>
 </body>
 
 </html>
