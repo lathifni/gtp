@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Sep 30, 2024 at 04:18 AM
+-- Generation Time: Oct 16, 2024 at 02:11 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -20,6 +20,27 @@ SET time_zone = "+00:00";
 --
 -- Database: `gtp`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `announcement`
+--
+
+CREATE TABLE `announcement` (
+  `id` varchar(5) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `admin_id` int UNSIGNED DEFAULT NULL,
+  `announcement` text,
+  `status` tinyint DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `announcement`
+--
+
+INSERT INTO `announcement` (`id`, `admin_id`, `announcement`, `status`) VALUES
+('AN001', 2, 'We are currently undergoing maintenance and are not accepting any visits at this time. Thank you for your understanding and patience. Please check back with us later for updates.', 1),
+('AN002', 2, 'There are road repairs on the shore of Singkarak Lake, please choose a more convenient route.', 2);
 
 -- --------------------------------------------------------
 
@@ -122,6 +143,8 @@ INSERT INTO `auth_groups_users` (`group_id`, `user_id`) VALUES
 (1, 21),
 (1, 21),
 (1, 21),
+(1, 30),
+(1, 31),
 (2, 15),
 (2, 15),
 (2, 15),
@@ -726,7 +749,31 @@ INSERT INTO `auth_logins` (`id`, `ip_address`, `email`, `user_id`, `date`, `succ
 (568, '::1', 'nullardew@gmail.com', 2, '2024-09-28 15:59:09', 1),
 (569, '::1', 'nullardew@gmail.com', 2, '2024-09-29 10:45:46', 1),
 (570, '::1', 'nullardew@gmail.com', 2, '2024-09-29 23:02:51', 1),
-(571, '::1', 'nullardew@gmail.com', 2, '2024-09-30 07:14:48', 1);
+(571, '::1', 'nullardew@gmail.com', 2, '2024-09-30 07:14:48', 1),
+(572, '::1', 'nullardew@gmail.com', 2, '2024-09-30 11:46:14', 1),
+(573, '::1', 'nullardew@gmail.com', 2, '2024-09-30 11:47:14', 1),
+(574, '::1', 'use4@gmail.com', 19, '2024-09-30 11:48:31', 1),
+(575, '::1', 'nullardew@gmail.com', 2, '2024-09-30 17:44:44', 1),
+(576, '::1', 'nullardew@gmail.com', 2, '2024-09-30 22:50:29', 1),
+(577, '::1', 'nullardew@gmail.com', 2, '2024-10-01 07:40:03', 1),
+(578, '::1', 'nullardew@gmail.com', 2, '2024-10-01 15:00:01', 1),
+(579, '::1', 'nullardew@gmail.com', 2, '2024-10-02 13:14:39', 1),
+(580, '::1', 'nullardew@gmail.com', 2, '2024-10-02 16:32:43', 1),
+(581, '::1', 'wen', NULL, '2024-10-04 10:29:28', 0),
+(582, '::1', 'nullardew@gmail.com', 2, '2024-10-04 10:29:33', 1),
+(583, '::1', 'nullardew@gmail.com', 2, '2024-10-04 14:00:14', 1),
+(584, '::1', 'nullardew@gmail.com', 2, '2024-10-07 10:00:53', 1),
+(585, '::1', 'icad', NULL, '2024-10-07 10:25:13', 0),
+(586, '::1', 'icad', NULL, '2024-10-07 10:25:37', 0),
+(587, '::1', 'nullardew@gmail.com', 2, '2024-10-07 10:26:04', 1),
+(588, '::1', 'nullardew@gmail.com', 2, '2024-10-09 08:27:40', 1),
+(589, '::1', 'use4@gmail.com', 19, '2024-10-09 08:28:43', 1),
+(590, '::1', 'nullardew@gmail.com', 2, '2024-10-12 11:48:09', 1),
+(591, '::1', 'nullardew@gmail.com', 2, '2024-10-12 16:50:23', 1),
+(592, '::1', 'nullardew@gmail.com', 2, '2024-10-12 18:08:16', 1),
+(593, '::1', 'wen', NULL, '2024-10-12 18:18:07', 0),
+(594, '::1', 'nullardew@gmail.com', 2, '2024-10-12 18:18:12', 1),
+(595, '::1', 'nullardew@gmail.com', 2, '2024-10-14 22:28:51', 1);
 
 -- --------------------------------------------------------
 
@@ -874,8 +921,7 @@ INSERT INTO `culinary_place` (`id`, `name`, `address`, `contact_person`, `open`,
 ('CP023', 'Ajo Ver Caffe', 'Green Talao Park', 'Not added yet', '00:00:00', '00:00:00', 25, 'When visiting Ulakan, tourists can visit this eating place which serves a variety of culinary menus at affordable prices.', 1, 0x000000000106000000010000000103000000010000000a0000009fccec65690c5940a475d1fb81b5e6bfbb466ae2690c59406233583b44b5e6bfd7c087dd690c5940e20fb68941b5e6bf89da7125690c59402ed2096be8b4e6bf3af4fb9f680c5940fba68cb91eb5e6bf9fccac00690c59406accc12c52b5e6bf9fcc8c6b690c59402152c3cb84b5e6bf9fccec65690c59402799df2b7fb5e6bf9fccec65690c5940a475d1fb81b5e6bf9fccec65690c5940a475d1fb81b5e6bf),
 ('CP024', 'Cafetaria II', 'Green Talao Park', 'Not added yet', '00:00:00', '00:00:00', 18, 'When visiting Ulakan, tourists can visit this eating place which serves a variety of culinary menus at affordable prices.', 1, 0x0000000001060000000100000001030000000100000007000000045bc432690c594010e4db1deeb4e6bf4c170bb2680c594005438ba826b5e6bf3e6469f7670c59403488306cc2b4e6bf045bc47e680c5940cb52ae4f91b4e6bf045b242d690c594010e4db1deeb4e6bf045bc432690c594010e4db1deeb4e6bf045bc432690c594010e4db1deeb4e6bf),
 ('CP025', 'Cafe Tuwo Bunsu', 'Green Talao Park', 'Not added yet', '00:00:00', '00:00:00', 20, 'When visiting Ulakan, tourists can visit this eating place which serves a variety of culinary menus at affordable prices.', 1, 0x0000000001060000000100000001030000000100000007000000cd7b938c640c5940d0cf1d188db2e6bf3154e4d6620c5940a89a20f3b2b1e6bf4f853843620c59402b381c95f9b1e6bfcd7b9305640c59403cb4bc66d3b2e6bfcd7b938c640c5940669001b892b2e6bfcd7b938c640c5940d0cf1d188db2e6bfcd7b938c640c5940d0cf1d188db2e6bf),
-('CP026', 'Talao Indah Cafe', 'Green Talao Park', 'Not added yet', '00:00:00', '00:00:00', 20, 'When visiting Ulakan, tourists can visit this eating place which serves a variety of culinary menus at affordable prices.', 1, 0x0000000001060000000100000001030000000100000008000000fa91a52f650c59402945ea72e2b2e6bf4bce8b9f640c5940adae404198b2e6bf65435a11640c5940c6887d96d5b2e6bffa9105a3640c59403ea1c1811db3e6bffa91a52f650c59402945ea72e2b2e6bffa91a52f650c59402945ea72e2b2e6bffa91a52f650c59402945ea72e2b2e6bffa91a52f650c59402945ea72e2b2e6bf),
-('CP027', 'testtt', 'alamat', '0821', '16:01:00', '04:01:00', 5, 'oke', 0, 0x00000000010600000001000000010300000001000000050000009d11a17ffa0c5940ab5c3c0fb816e6bf9d11a16bff0c5940bca4b5074d18e6bf9d11a10d120d594098d8c7200713e6bf9d11a16d0c0d5940b3754c2d6410e6bf9d11a17ffa0c5940ab5c3c0fb816e6bf);
+('CP026', 'Talao Indah Cafe', 'Green Talao Park', 'Not added yet', '00:00:00', '00:00:00', 20, 'When visiting Ulakan, tourists can visit this eating place which serves a variety of culinary menus at affordable prices.', 1, 0x0000000001060000000100000001030000000100000008000000fa91a52f650c59402945ea72e2b2e6bf4bce8b9f640c5940adae404198b2e6bf65435a11640c5940c6887d96d5b2e6bffa9105a3640c59403ea1c1811db3e6bffa91a52f650c59402945ea72e2b2e6bffa91a52f650c59402945ea72e2b2e6bffa91a52f650c59402945ea72e2b2e6bffa91a52f650c59402945ea72e2b2e6bf);
 
 -- --------------------------------------------------------
 
@@ -1449,8 +1495,7 @@ CREATE TABLE `event` (
 
 INSERT INTO `event` (`id`, `name`, `type`, `event_date`, `price`, `description`, `contact_person`, `video_url`, `geom`, `category`) VALUES
 ('EV001', 'Festival Mancing Mania', 'Yearly Event', '2023-10-28', 30000, 'The Fishing Mania Festival is one of the GTP Ulakan events which is held twice a year for a week. This festival is held in two sessions, morning session (30k) and evening session (50k). Tourists can take home the fishing results.', '082383985824', '1700831157_556820857e29e2e140c1.mp4', 0x000000000106000000010000000103000000010000000700000069097fa56d0c5940b4c3faa6f4b9e6bfeff2ec146e0c5940b4c3faa6f4b9e6bf29afcb0a6e0c5940b0565f6d31bae6bfdc813c916d0c5940fd934e4c27bae6bf2f4da0af6d0c594052870bc8feb9e6bf69097fa56d0c5940b4c3faa6f4b9e6bf69097fa56d0c5940b4c3faa6f4b9e6bf, 0),
-('EV002', 'Festival Anak Nagari', 'Yearly Event', '2023-11-10', 25000, 'The Nagari Children\'s Festival is held once a year to showcase various arts in Nagari Ulakan in the form of Silat, Randai Ulu Ambek, Galombang Dance, Tambua Tansa and others', '082383985824', '1704196962_ffa96ca476c16def4f23.mp4', 0x000000000106000000010000000103000000010000000600000098ae917c750c5940eff4266680bae6bfb22fa8f7750c59403ed07fe994bae6bf2c04ec97750c5940bb5d8a73d2bae6bf98ae917c750c5940eff4266680bae6bf98ae917c750c5940eff4266680bae6bf98ae917c750c5940eff4266680bae6bf, 1),
-('EV003', 'event  tambah', 'apa yah', '2024-10-12', 0, 'oke', '0821', '', 0x0000000001060000000100000001030000000100000005000000d74f356d8f0c594067ee27352f9ce6bfd74f3589910c59408d8f252e979de6bfd74f35e1840c59406cc2511091a3e6bfd74f35156f0c59403c0a5d1ec1a0e6bfd74f356d8f0c594067ee27352f9ce6bf, 0);
+('EV002', 'Festival Anak Nagari', 'Yearly Event', '2023-11-10', 25000, 'The Nagari Children\'s Festival is held once a year to showcase various arts in Nagari Ulakan in the form of Silat, Randai Ulu Ambek, Galombang Dance, Tambua Tansa and others', '082383985824', '1704196962_ffa96ca476c16def4f23.mp4', 0x000000000106000000010000000103000000010000000600000098ae917c750c5940eff4266680bae6bfb22fa8f7750c59403ed07fe994bae6bf2c04ec97750c5940bb5d8a73d2bae6bf98ae917c750c5940eff4266680bae6bf98ae917c750c5940eff4266680bae6bf98ae917c750c5940eff4266680bae6bf, 1);
 
 -- --------------------------------------------------------
 
@@ -1741,8 +1786,7 @@ INSERT INTO `gallery_culinary_place` (`id`, `culinary_place_id`, `url`) VALUES
 ('GC067', 'CP024', '1704194937_c0e913fe170c786802e6.jpg'),
 ('GC068', 'CP025', '1704194976_ebd6a903285c5dc6eba4.jpg'),
 ('GC070', 'CP001', '1704610285_114ea31d3f0594b2f3a2.jpg'),
-('GC071', 'CP026', '1704712599_37375621fcdf5a08d892.jpg'),
-('GC072', 'CP027', '1727514123_06fdb42318e100f1de54.png');
+('GC071', 'CP026', '1704712599_37375621fcdf5a08d892.jpg');
 
 -- --------------------------------------------------------
 
@@ -1767,8 +1811,7 @@ INSERT INTO `gallery_event` (`id`, `event_id`, `url`) VALUES
 ('GE011', 'EV002', '1704196961_2f28b5e47a3a5bfb3a22.jpg'),
 ('GE012', 'EV002', '1704196961_5d82390300d00fa91a6b.jpg'),
 ('GE013', 'EV002', '1704196963_ba5c99f59eeb7f687cc2.jpg'),
-('GE014', 'EV002', '1704196963_d964a9c47d653eeb0649.jpg'),
-('GE015', 'EV003', '1727494218_071ee61a21a934f40703.png');
+('GE014', 'EV002', '1704196963_d964a9c47d653eeb0649.jpg');
 
 -- --------------------------------------------------------
 
@@ -1876,9 +1919,7 @@ INSERT INTO `gallery_homestay` (`id`, `homestay_id`, `url`) VALUES
 ('GH019', 'HO001', '1704609553_71fc5372a038fa9ca088.jpg'),
 ('GH020', 'HO001', '1704609556_3c47791ad0ba28ae59f8.jpg'),
 ('GH021', 'HO001', '1704609556_8be8a88bd3a2bd023882.jpg'),
-('GH022', 'HO001', '1704609558_0befe45e3d7f47187db1.jpg'),
-('GH023', 'HO002', '1727065063_be4b7d1459b801d0aafc.png'),
-('GH024', 'HO002', '1727065063_edf35597632e7a46b808.png');
+('GH022', 'HO001', '1704609558_0befe45e3d7f47187db1.jpg');
 
 -- --------------------------------------------------------
 
@@ -2035,8 +2076,7 @@ INSERT INTO `gallery_worship_place` (`id`, `worship_place_id`, `url`) VALUES
 ('GW029', 'WP006', '1701054373_a667f01a8ddde7d25311.jpg'),
 ('GW030', 'WP001', '1704774241_62e71aea9437ce6cb92b.jpg'),
 ('GW031', 'WP001', '1704774242_449c120d4a5e87a41298.jpg'),
-('GW032', 'WP001', '1704774244_d977d292ac44f0b3e790.jpg'),
-('GW033', 'WP008', '1727514226_b7b9078c816748959845.png');
+('GW032', 'WP001', '1704774244_d977d292ac44f0b3e790.jpg');
 
 -- --------------------------------------------------------
 
@@ -2084,8 +2124,7 @@ CREATE TABLE `homestay` (
 --
 
 INSERT INTO `homestay` (`id`, `name`, `address`, `contact_person`, `description`, `geom`) VALUES
-('HO001', 'ELFI Homestay', 'Jln. Syekh Burhanuddin', '082383985824', 'For the comfort of tourists when visiting GTP Ulakan, Ulakan residents have prepared their houses to be used as homestays and rented out at affordable prices and equipped with other facilities and services.', 0x000000000106000000010000000103000000010000000f00000085c355bb380c5940b90eaa291250e6bfe0e87db83a0c5940468577624f51e6bf9c51c47f390c594043023d67cc51e6bf3c3e6f82370c59404b3acdcf8050e6bf85c38dbf380c59409901d3b90950e6bf85c385b8380c59406c5bc5890c50e6bf85c3edb9380c59402a98cf6d0a50e6bf85c31db7380c5940fdf1c13d0d50e6bf85c31db7380c59406c5bc5890c50e6bf85c3bdbc380c59402a98cf6d0a50e6bf85c355bb380c5940dac4c8d50b50e6bf85c3bdbc380c5940492ecc210b50e6bf85c355bb380c5940086bd6050950e6bf85c355bb380c5940b90eaa291250e6bf85c355bb380c5940b90eaa291250e6bf),
-('HO002', 'homestay tambah', 'alammat', '0821', 'des', 0x0000000001060000000100000001030000000100000005000000d74f35435f0c594074e9d12049a0e6bfd74f3521630c594073d12410a0a3e6bfd74f35f1650c59404fa20b180ba2e6bfd74f354b660c5940a265b628b49ee6bfd74f35435f0c594074e9d12049a0e6bf);
+('HO001', 'ELFI Homestay', 'Jln. Syekh Burhanuddin', '082383985824', 'For the comfort of tourists when visiting GTP Ulakan, Ulakan residents have prepared their houses to be used as homestays and rented out at affordable prices and equipped with other facilities and services.', 0x000000000106000000010000000103000000010000000f00000085c355bb380c5940b90eaa291250e6bfe0e87db83a0c5940468577624f51e6bf9c51c47f390c594043023d67cc51e6bf3c3e6f82370c59404b3acdcf8050e6bf85c38dbf380c59409901d3b90950e6bf85c385b8380c59406c5bc5890c50e6bf85c3edb9380c59402a98cf6d0a50e6bf85c31db7380c5940fdf1c13d0d50e6bf85c31db7380c59406c5bc5890c50e6bf85c3bdbc380c59402a98cf6d0a50e6bf85c355bb380c5940dac4c8d50b50e6bf85c3bdbc380c5940492ecc210b50e6bf85c355bb380c5940086bd6050950e6bf85c355bb380c5940b90eaa291250e6bf85c355bb380c5940b90eaa291250e6bf);
 
 -- --------------------------------------------------------
 
@@ -2528,8 +2567,8 @@ CREATE TABLE `reservation` (
 --
 
 INSERT INTO `reservation` (`id`, `user_id`, `package_id`, `request_date`, `check_in`, `total_people`, `note`, `deposit`, `total_price`, `proof_of_deposit`, `deposit_date`, `proof_of_payment`, `payment_date`, `rating`, `review`, `status`, `confirmation_date`, `admin_confirm`, `feedback`, `response`, `cancel`, `cancel_date`, `account_refund`, `proof_refund`, `refund_date`, `admin_refund`, `refund_amount`, `deposit_check`, `payment_check`, `refund_check`, `admin_deposit_check`, `admin_payment_check`) VALUES
-('R0001', 19, 'P0003', '2023-11-04 09:05:00', '2023-11-07 10:11:00', 12, 'Want to eat lokan and palm fruit', 150000, 750000, '1699066015_b86beee623c28b5a6511.jpeg', '2023-11-04 00:00:00', NULL, '0000-00-00 00:00:00', 0, '', 1, '2023-11-04 09:30:00', 2, 'Oke menu akan disediakan', '', 1, '2020-11-05 00:00:00', 'BNI 913818090 a.n use4', '1699412905_02c61e90ecc07ec625b4.jpeg', '2020-11-06 00:00:00', 2, NULL, NULL, NULL, 0, NULL, NULL),
-('R0002', 19, 'P0003', '2023-11-04 09:12:00', '2023-11-07 12:11:00', 16, 'Want to eat fish and mangrove crabs', 200000, 1000000, '1699353367_73716caf93bd73bdff19.jpeg', '2023-11-07 17:36:00', NULL, '2023-11-10 23:15:00', 0, '', 1, '2023-11-04 09:27:00', 2, 'Silakan bayar dp', '', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+('R0001', 19, 'P0003', '2023-11-04 09:05:00', '2023-10-02 10:11:00', 12, 'Want to eat lokan and palm fruit', 150000, 750000, '1699066015_b86beee623c28b5a6511.jpeg', '2023-11-04 00:00:00', NULL, '0000-00-00 00:00:00', 0, '', 1, '2023-11-04 09:30:00', 2, 'Oke menu akan disediakan', '', 1, '2020-11-05 00:00:00', 'BNI 913818090 a.n use4', '1699412905_02c61e90ecc07ec625b4.jpeg', '2020-11-06 00:00:00', 2, NULL, NULL, NULL, 0, NULL, NULL),
+('R0002', 19, 'P0003', '2023-11-04 09:12:00', '2023-10-02 12:11:00', 16, 'Want to eat fish and mangrove crabs', 200000, 1000000, '1699353367_73716caf93bd73bdff19.jpeg', '2023-11-07 17:36:00', NULL, '2023-11-10 23:15:00', 0, '', 1, '2023-11-04 09:27:00', 2, 'Silakan bayar dp', '', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 ('R0003', 19, 'P0008', '2023-11-01 09:19:00', '2023-11-02 11:18:00', 22, 'Just eat at a restaurant', 100000, 500000, '1699066093_0853702d747c324607b7.jpeg', '2023-11-04 09:48:00', '1699066114_a0f62f1e407ce0e93570.jpeg', '2023-11-04 09:48:00', 0, '', 1, '2023-11-01 09:26:00', 2, 'Silakan bayar DP maksimal H-3', '', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, 2),
 ('R0004', 2, 'P0003', '2023-11-02 09:32:00', '2023-11-10 10:30:00', 5, 'I want to go for a walk in Ulakan', 100000, 500000, '', '0000-00-00 00:00:00', NULL, '0000-00-00 00:00:00', 0, '', 0, '2023-11-04 09:34:00', 2, 'Maaf lokasi GTP pada tanggal tersebut sudah dibooking kegiatan kecamatan, tersedia kembali mulai Minggu 12 November 2023', '', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 ('R0005', 2, 'P0007', '2023-11-04 11:42:00', '2023-11-16 12:42:00', 10, 'Oke, please process it', 200000, 1000000, '', '0000-00-00 00:00:00', NULL, '0000-00-00 00:00:00', 0, '', 1, '2023-11-08 09:05:00', 2, 'Oke silakan bayar dp\r\n', '', 1, '2023-11-09 10:30:37', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
@@ -2694,7 +2733,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `email`, `username`, `fullname`, `user_image`, `address`, `phone`, `password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `activate_hash`, `status`, `status_message`, `active`, `force_pass_reset`, `created_at`, `updated_at`, `deleted_at`) VALUES
 (1, 'novardewa@gmail.com', 'nova', 'Admin', 'default.jpg', NULL, NULL, '$2y$10$P3rdR9QtLmy40QoORZN.vOY0hLbCSvyd8DdrlM.VNorsEs9nVAdzm', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2022-11-07 21:50:08', '2022-11-07 21:50:08', NULL),
-(2, 'nullardew@gmail.com', 'wen', 'Wendrizal', '1698296825_a04717403954dd182e19.png', 'Ulakan', '0812345678', '$2y$10$gnvUE.vqFBKC4xwi.xBJTuURWh6ydKh9jUVR4R3T3XojTOST.oIaO', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2022-11-16 20:32:10', '2022-11-16 20:32:10', NULL),
+(2, 'nullardew@gmail.com', 'superadmin', 'Super Admin', '1698296825_a04717403954dd182e19.png', 'Ulakan', '0812345678', '$2y$10$gnvUE.vqFBKC4xwi.xBJTuURWh6ydKh9jUVR4R3T3XojTOST.oIaO', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2022-11-16 20:32:10', '2022-11-16 20:32:10', NULL),
 (13, 'asysyura4222@gmail.com', 'testing', NULL, 'default.jpg', NULL, NULL, '$2y$10$VQI8JJaKETrqM9q50arASuiO9S3s5R9MU15QpR49E3Q2WObyS18DG', NULL, NULL, NULL, '0405fcfc43cc69c38eb1846303d1d4d6', NULL, NULL, 0, 0, '2023-07-26 10:50:44', '2023-11-11 18:56:31', '2023-11-11 18:56:31'),
 (15, 'pengguna@gmail.com', 'pengguna', 'Andi Budi', 'default.jpg', 'Padang Selatan', '081234568743', '$2y$10$wbNsUHChdJWQ9WDmiBPb7.8bEWno4iUIBt9mWT0xMotuyFEXuIBui', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2023-10-11 06:58:10', '2023-11-11 18:56:21', '2023-11-11 18:56:21'),
 (16, 'use@gmail.com', 'use', 'Setia Budi', '1697063999_0813552def9149bee07e.png', 'Jl Kenangan', '081244352111', '$2y$10$zER5uzcBt6r0SlNec4lZIO26LiJHvcC1zAcu31DzSEc2uQd.pWZ02', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2023-10-11 16:39:28', '2023-11-11 17:58:33', '2023-11-11 17:58:33'),
@@ -2704,7 +2743,9 @@ INSERT INTO `users` (`id`, `email`, `username`, `fullname`, `user_image`, `addre
 (21, 'admin2@gmail.com', 'admin2', NULL, 'default.png', NULL, NULL, '$2y$10$gnvUE.vqFBKC4xwi.xBJTuURWh6ydKh9jUVR4R3T3XojTOST.oIaO', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL),
 (22, 'mutiarajannah02@gmail.com', 'mutiajannah', NULL, 'default.jpg', NULL, NULL, '$2y$10$TgXu3.qAqLDMU4WnCvYbCOXJZTa/zZK4AldDqpmC8agxmKhq8Xrfa', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2023-11-12 05:55:31', '2023-11-12 05:55:31', NULL),
 (27, 'beenanti.id@gmail.com', 'use6', NULL, 'default.jpg', NULL, NULL, '$2y$10$/Ov2pr/9x1XQ9vYd28VeI.tPvgw7yJPik2w3KgWLHGjrv6aiOx8vy', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2023-11-12 08:56:26', '2023-11-12 08:56:26', NULL),
-(29, 'azuyapeople@gmail.com', 'azuya', NULL, '1704722128_9097d342e4c81bebf4bd.png', NULL, NULL, '$2y$10$2Qr0i4cIVwvBq5IEPjuYqOy19EZp5tZHuqFAIuNgZmfxP2ROZHOk6', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2024-01-08 20:54:17', '2024-01-08 20:54:17', NULL);
+(29, 'azuyapeople@gmail.com', 'azuya', NULL, '1704722128_9097d342e4c81bebf4bd.png', NULL, NULL, '$2y$10$2Qr0i4cIVwvBq5IEPjuYqOy19EZp5tZHuqFAIuNgZmfxP2ROZHOk6', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2024-01-08 20:54:17', '2024-01-08 20:54:17', NULL),
+(30, 'email@gmail.com', 'icad', NULL, 'default.png', NULL, NULL, '$2y$10$gnvUE.vqFBKC4xwi.xBJTuURWh6ydKh9jUVR4R3T3XojTOST.oIaO', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL),
+(31, 'test@gmail.com', 'uname', NULL, 'default.png', NULL, NULL, '$2y$10$gnvUE.vqFBKC4xwi.xBJTuURWh6ydKh9jUVR4R3T3XojTOST.oIaO', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, '2024-10-12 20:01:20', '2024-10-12 20:01:20');
 
 -- --------------------------------------------------------
 
@@ -2760,12 +2801,18 @@ INSERT INTO `worship_place` (`id`, `name`, `address`, `capacity`, `description`,
 ('WP004', 'Surau Duku', 'Jl. Syekh Burhanuddin', 100, 'A mosque, also called masjid, is a place of prayer for Muslims.', 0, 0x00000000010600000001000000010300000001000000050000002e7c6d2a330c5940033af880d24de6bf9daf5803340c5940ae316f9dda4ce6bf2b853ed1360c5940a3d2acd8bd4de6bf2c01fc0c360c59408f7782ac844ee6bf2e7c6d2a330c5940033af880d24de6bf, 0),
 ('WP005', 'Surau Apar', 'Jl. Syekh Burhanuddin', 300, 'A mosque, also called masjid, is a place of prayer for Muslims.', 0, 0x00000000010600000001000000010300000001000000060000006fb6f8c6520c5940ef41bf4e1549e6bff451681b540c594006f77f142348e6bf61122291560c59406f6ffd00c848e6bfb1572f4b550c59406a285e58ff49e6bf6fb67883520c5940dddd1b0e3749e6bf6fb6f8c6520c5940ef41bf4e1549e6bf, 0),
 ('WP006', 'Surau Syekh Tibarau', 'Jl. Syekh Burhanuddin', 250, 'A mosque, also called masjid, is a place of prayer for Muslims.', 0, 0x000000000106000000010000000103000000010000000700000029aa1196ca0c5940fbcc824ce91ee6bf0ab24ae6ca0c5940fdfe62202a1fe6bfecb94339cc0c5940dd01c687ae1ee6bf5db23dd3cd0c5940560c3bbfae1fe6bf0506efbcca0c594032985a29a320e6bf29aa1101c90c5940f2e4a0f9831fe6bf29aa1196ca0c5940fbcc824ce91ee6bf, 0),
-('WP007', 'Masjid Tua Syekh Burhanuddin', 'Jl. Syekh Burhanuddin', 250, 'A mosque, also called masjid, is a place of prayer for Muslims.', 0, 0x00000000010600000001000000010300000001000000050000007a840adbec0c5940dd7c4d022814e6bfe2ec2cabf00c5940ee17fd326815e6bf2da34a75ef0c5940c30403a1bf16e6bfe8f80643eb0c5940d4764adb7c15e6bf7a840adbec0c5940dd7c4d022814e6bf, 0),
-('WP008', 'test', 'address', 9, 'oke', 0, 0x0000000001060000000100000001030000000100000005000000dce8bd620f0c5940c3996a274f54e6bfdce8bdd2170c5940bab007187957e6bfdce8bd0a1c0c5940421d4a225d55e6bfdce8bd32120c5940f49ca337f850e6bfdce8bd620f0c5940c3996a274f54e6bf, 0);
+('WP007', 'Masjid Tua Syekh Burhanuddin', 'Jl. Syekh Burhanuddin', 250, 'A mosque, also called masjid, is a place of prayer for Muslims.', 0, 0x00000000010600000001000000010300000001000000050000007a840adbec0c5940dd7c4d022814e6bfe2ec2cabf00c5940ee17fd326815e6bf2da34a75ef0c5940c30403a1bf16e6bfe8f80643eb0c5940d4764adb7c15e6bf7a840adbec0c5940dd7c4d022814e6bf, 0);
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `announcement`
+--
+ALTER TABLE `announcement`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `admin_id` (`admin_id`);
 
 --
 -- Indexes for table `attraction`
@@ -3137,7 +3184,7 @@ ALTER TABLE `auth_groups`
 -- AUTO_INCREMENT for table `auth_logins`
 --
 ALTER TABLE `auth_logins`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=572;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=596;
 
 --
 -- AUTO_INCREMENT for table `auth_permissions`
@@ -3173,11 +3220,17 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- Constraints for dumped tables
 --
+
+--
+-- Constraints for table `announcement`
+--
+ALTER TABLE `announcement`
+  ADD CONSTRAINT `FK_announcement_users` FOREIGN KEY (`admin_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `auth_groups_permissions`
