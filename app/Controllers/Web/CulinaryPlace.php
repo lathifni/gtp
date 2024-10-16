@@ -7,7 +7,7 @@ use App\Models\GalleryCulinaryPlaceModel;
 use CodeIgniter\RESTful\ResourcePresenter;
 use CodeIgniter\Files\File;
 
-class CulinaryPlace extends ResourcePresenter
+class Culinaryplace extends ResourcePresenter
 {
     protected $culinaryPlaceModel;
     protected $galleryCulinaryPlaceModel;
